@@ -4,6 +4,8 @@
 
 import './styles/app.css';
 
+require('babel-polyfill');
+
 const PIXI = (global.PIXI = require('pixi.js'));
 const PIXISND = (global.PIXISND = require('pixi-sound'));
 const PIXIPART = (global.PIXIPART = require('./pixi-particles.js'));

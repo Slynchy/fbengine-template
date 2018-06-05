@@ -4,9 +4,9 @@
   "description": "Template project for the FBEngine",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier": "prettier --single-quote --print-width 100 --tab-width 4 --use-tabs \"./src/**/*.js\" --write",
-    "dev": "webpack --config webpack.config.js",
-    "dev-server": "webpack-dev-server --config webpack.config.js"
+    "prettier": "npx prettier --single-quote --print-width 100 --tab-width 4 --use-tabs \"./code/**/*.js\" --write",
+    "dev": "npx webpack --config webpack.config.js",
+    "dev-server": "npx webpack-dev-server --config webpack.config.js --https"
   },
   "babel": {
     "presets": [
